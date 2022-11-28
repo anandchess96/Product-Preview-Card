@@ -8,3 +8,63 @@ html {
     height: 100%;
 }
 
+body {
+    height: 100%;
+    width: 100%;
+    background-color: hsl(30, 38%, 92%);
+    overflow: hidden;
+    user-select: none;
+}
+
+.page {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    height: 40em;
+    color: aqua;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.product-image {
+    height: 100%;
+    width: 100%;
+    background: url("./images/image-product-desktop.jpg") center no-repeat;
+    background-size: contain;
+    // transform: scale(1.25);
+}
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    padding: 32px;
+}
+
+.perfume {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color:  hsl(228, 12%, 48%);
+    letter-spacing: 5px;
+}
+
+.product-title {
+    font-family: "Fraunces", serif;
+    color: hsl(212deg, 21%, 14%);
+    font-size: 45px;
+    padding-top: 20px;
+    padding-right: 60px;
+}
+
+.product-description {
+    padding-top: 20px;
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
